@@ -1,0 +1,25 @@
+/* 구글 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap');
+
+/* Reset CSS */
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+ol,ul,li{
+     list-style: none;
+}
+a{
+     text-decoration: none;
+     outline: 0;
+     color: #555;
+}
+img{
+     border: 0;
+     display: block;
+}
+body{
+     font-family: 'Orbitron', sans-serif;
+     
+}
