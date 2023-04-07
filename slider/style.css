@@ -1,3 +1,4 @@
+/************* Reset Style ******************/
 *{
  margin: 0;
  padding: 0;
@@ -19,6 +20,7 @@ body{
  margin: auto;
 }
 
+/*************** Images Style *****************/
 .slider-wrapper{
  width: 70%;
  height: auto;
@@ -42,4 +44,51 @@ body{
 }
 .imgs img{
  width: 100%;
+}
+
+/* Navigator Style */
+.navigator{
+ position: absolute;
+ left: -10%;
+ top: 50%;
+ transform: translateY(-50%);
+ _background: #444;
+ width: 120%;
+ display: flex;
+ justify-content: space-between;
+}
+
+.navigator a{
+ opacity: 0.5;
+ transition: all .3s;
+ width: 50px;
+}
+.navigator a:hover{
+ opacity: 1;
+}
+.navigator a img{
+ width: 100%;
+ display: block;
+}
+
+/* Idicator Style */
+.indicator{
+ width: 100%;
+ height: auto;
+ position: absolute;
+ bottom: -1rem;
+ display: flex;
+ justify-content: center;
+ column-gap: .5rem;
+}
+.indicator a{
+ width: 10px;
+ height: 10px;
+ border-radius: 50%;
+ background: #fff;
+ display: block;
+ border: 1px solid #fff;
+}
+.indicator a.active{
+ background: #777;
 }
